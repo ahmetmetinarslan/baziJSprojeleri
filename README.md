@@ -1,3 +1,3 @@
 # baziJSprojeleri
 Bazı JS Projeleri <br>
-<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fgithub.com%2FZelechos%2FPragmatic_JS&psig=AOvVaw1_-KVw7q4cYPlzECZAFtbh&ust=1666122355137000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCPiYicuD6PoCFQAAAAAdAAAAABAb">
+<img src="https://camo.githubusercontent.com/bdd38b0c65d47c7cba62b60617adffedb3a48d1ac6e77501b990fffb1e52815c/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f333230302f312a4f463078454d6b5742762d36397a766d4e73365244512e676966">
