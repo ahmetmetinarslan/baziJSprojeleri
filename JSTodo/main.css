@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+form,span{
+    margin: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    overflow: hidden;
+}
+
+
+input[type=button],input[type=text]{
+    padding: 5px;
+    margin: 0.25rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    margin: 10px;
+}
+select{
+    max-width: 150px;
+    margin: 0.25rem;
+    
+}
+h3,h4,h5,li{
+    text-align: center;
+}
+.baslik{
+    display: block;
+    width: 80%;
+    line-height: 60px;
+    margin: auto;
+    padding: 25px 0;
+    color: red;
+    font-weight: bolder;
+
+}
+
+form>label{
+    border-right: thin solid black;
+    border-bottom: thin solid black;
+}
+
+
+
+li img{
+    width: 1rem;
+    height: 1rem;
+    margin: 0 0.25rem;
+}
+.todo {
+    margin: 20px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    max-width: 600px;
+    text-align: center;
+    height: 400px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
