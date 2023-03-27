@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+    background-color: beige;
+    background-image: linear-gradient(315deg,white 0%,beige 100%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+#container {
+    background-color: white;
+    width: 60rem;
+    min-height: 30vh;
+    border-radius: 1rem;
+    box-shadow: 0 0 1.2rem 0.2rem, lightgray;
+    margin: 2rem;
+}
+#container > * {
+    margin: 1rem;
+    padding: 1rem;
+}
+.baslik {
+    text-align: center;
+}
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
