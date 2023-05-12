@@ -1,0 +1,44 @@
+body {
+  font-family: courier;
+  background-color: #fbc531;
+}
+
+body #container {
+  text-align: center;
+  padding: 20px;
+}
+
+body #container #form {
+  margin-top: 20px;
+}
+
+body #container #form input[type='text'] {
+  padding: 5px 10px;
+  border: 1px solid #bdc3c7;
+  outline: 0;
+  color: #0097e6;
+  font-weight: bold;
+}
+
+body #container #form input[type='text'] #calbtn {
+  border: 0;
+  padding: 10px 20px;
+  cursor: pointer;
+  background: #d35400;
+  color: #f1c40f;
+  font-size: 20px;
+  outline: 0;
+}
+
+body #container #form input[type='text'] #calbtn #calbtn:hover, body #container #form input[type='text'] #calbtn #calbtn:active {
+  background-color: #c0392b;
+  outline: 0;
+}
+
+body #container #form input[type='text'] #calbtn span {
+  display: inline-block;
+  font-size: 45px;
+  font-weight: bold;
+  color: #27ae60;
+}
+/*# sourceMappingURL=style.css.map */
